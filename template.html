@@ -14,26 +14,60 @@
             margin: 0;
         }
 
+        div {
+            display: block;
+            height: 200px;
+            width: 350px;
+            margin: 0;
+        }
+
         span {
             width: 100px;
             height: 100px;
             display: inline-block;
             background-color: black;
-            margin: 50px;
+            margin: 48px;
+        }
+
+        span.left-box {
+            margin-right: 25px;
+        }
+
+        span.right-box {
+            margin-left: 25px;
+        }
+
+
+        
+        div.top-bar {
+            background-color: red;
+        }
+
+        div.bottom-bar {
+            background-color: blue;
         }
 
     </style>
   </head>
 
   <body>
-    <span>
-        
-    </span>
-    <span>
-    </span>
-    
-    <div>
+
+    <div class="top-bar">
+        <span class="left-box">    
+        </span>
+        <span class="right-box">
+        </span>
     </div>
+
+        
+
+    <div class="bottom-bar">
+        <span class="left-box">
+        </span>
+        <span class="right-box">
+        </span>
+    </div>
+
   </body>
 
 </html>
