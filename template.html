@@ -20,18 +20,30 @@
             display: inline-block;
             background-color: #cccccc;
             margin: 6px;
-            width: 189px;
-            height: 118px;
+            width: 31.5%;
+            height: 91%;
         }
 
-        #left {
+        .left {
             margin-right: 3px;
         }
-        #middle {
+        .middle {
             margin: 6px 3px;
         }
-        #right {
+        .right {
             margin-left: 3px;
+        }
+
+        #hundred {
+            height: 100px;
+            width: 23.2%;
+        }
+
+        #seventyfive {
+            height: 75px;
+            width: 23.2%;
+            vertical-align: top;
+
         }
 
         
@@ -44,19 +56,19 @@
   
 
     <div class="background">
-       <div class="foreground" id="left">
-           
-       </div>
-       <div class="foreground" id="middle">
-           
-       </div>
-       <div class="foreground" id="right">
-           
-       </div>
+       <div class="foreground left"></div>
+       <div class="foreground middle"></div>
+       <div class="foreground right"></div>
         
     </div>
 
     <div class="background">
+        <div class="foreground left" id="hundred"></div>
+        <div class="foreground middle" id="seventyfive"></div>
+        <div class="foreground middle" id="hundred"></div>
+         <div class="foreground right" id="seventyfive"></div>
+
+
     </div>
 
     <div class="background">
